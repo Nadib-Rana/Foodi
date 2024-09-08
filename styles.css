@@ -1,0 +1,456 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+header {
+    background-color: #f8f8f8;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .navgation-var .logo {
+    width: 70px;
+}
+
+header ul {
+    list-style-type: none;
+    display: flex;
+}
+
+header ul li {
+    margin-left: 20px;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.navgation-var{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.navgation-var-link  li a:hover{
+    background-color: #00c853;
+    border:1px solid black;
+    border-radius: 8px;
+    padding: 2px;
+    color: white;
+}
+.dwon-errow{
+    color: #00c853;
+    position: relative;
+    padding-left: 5px;
+    font-weight: bold;
+}
+.dwon-errow:hover{
+    color: #aecfb1;
+}
+
+.fa-phone{
+   color: white;
+   background-color: #00c853;
+   padding: 6px 15px;
+   border-radius: 15px;
+   display: flex;
+   font-size: small;
+   letter-spacing: 2px;
+   position: relative;
+   top: -5px;
+}
+.fa-phone:hover{
+    border: 2px solid #777;
+}
+
+
+.vedio-play{
+    background-color: white;
+    border-radius: 50%;
+    padding: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+    right: -20px;
+}
+.hero {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    background-color: #f0f4f8;
+}
+.hero-text{
+    position: relative;
+    top: 55px;
+    left: 6%;
+}
+.hero-image img {
+    max-width: 350px;
+    position: relative;
+    top: -30px;
+ 
+}
+.comment-about-items{
+    font-size: 14px;
+    color: #e53935;
+    opacity: 0.9;
+}
+.order-now{
+    position: relative;
+    background-color: rgb(18, 247, 18);
+    text-underline-offset: none;
+    text-decoration: none; 
+    align-items: center;
+    border-radius: 15px;
+    padding: 8px 10px;
+    z-index: 1;
+}
+.order-now:hover{
+    border:2px solid #777;
+}
+.order-now:active{
+ background-color: #777;
+ color: white;
+ border: 2 solid green;
+}
+.cta-watch-video{
+    position: relative;
+    font-size: 18px;
+    left: -40px;
+    text-underline-offset: none;
+    list-style: none;
+    text-decoration: none;
+    z-index: 1;
+    color: black;
+}
+.vedio-play:hover{
+    border: 2px solid #777;
+}
+.vedio-play:active{
+    background-color: #6a907a;
+    color: white;
+    border: 2px solid green;
+}
+.categories{
+    padding: 50px;
+    text-align: center;
+}
+
+
+.testimonials{
+    display: flex;
+    justify-content: space-around;
+}
+
+.category-grid, .menu-grid {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.menu{
+    left: 15%;
+}
+.category, .menu-item {
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    max-width: 200px;
+    text-align: center;
+    position: relative;
+    transition: transform 0.2s;
+}
+.category-img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    z-index: 1;
+    background-color: #aecfc1;
+}
+.dish-items{
+    font-size: 12px;
+}
+
+
+/* Standout Dishes From Our Menu */
+
+.menu-container {
+    display: flex;
+    gap: 20px;
+}
+
+/* Menu card styling */
+.menu-card {
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    max-width: 200px;
+    text-align: center;
+    position: relative;
+    transition: transform 0.2s;
+}
+
+.menu-card:hover {
+    transform: scale(1.05);
+}
+
+.btn-pass{
+    font-size: large;
+    padding: 12px 15px;
+    border-radius: 50%;
+    background-color: #aecfb1;
+    border: none;
+    color: white;
+}
+.btn-right{
+    background-color: #00c853;
+    margin-left: 25px;
+}
+.favorite {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    background-color: #00c853;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.menu-image {
+    width: 150px;
+    margin-bottom: 20px;
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+
+}
+
+h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.description {
+    font-size: 0.9rem;
+    color: #777;
+    margin-bottom: 20px;
+}
+
+.price-rating {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+}
+
+.price {
+    color: #e53935;
+    font-size: 1.2rem;
+}
+
+.rating {
+    display: flex;
+    align-items: center;
+}
+
+.rating span {
+    margin-left: 5px;
+}
+
+/* What Our Customers Say About Us */
+.testimonial-img {
+    position: relative; /* Establishes a positioning context for children */
+    display: inline-block; /* Keeps the content together */
+}
+
+.Customer-img {
+    height: 400px;
+    width: auto;
+    border-top-left-radius: 50%; /* Smooth rounded shape */
+    border-top-right-radius: 50%;
+    position: relative; /* Positions relative to parent */
+    z-index: 2; /* Higher z-index to ensure it is on top of the background */
+}
+
+.Customer-img-background {
+    height: 300px;
+    width: 100%; /* Adjust the width to ensure it matches the container */
+    background-color: #00c853;
+    border-top-left-radius: 50%; /* Smooth rounded shape */
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    position: absolute; /* Positioned relative to the parent container */
+    z-index: 1; /* Lower z-index to appear behind the image */
+    top: 100px; /* Adjust positioning as needed to place it properly */
+    left: -5%; /* Align it with the left edge of the parent */
+}
+
+
+
+/* journy */
+.journey{
+    display: flex;
+    justify-content: space-around;
+}
+
+.journey-left-side{
+    position: relative;
+    left: 2%;
+   
+}
+
+.explore{
+    padding: 7px 10PX;
+    border-radius: 15px;
+    background-color: #00c853;
+    width: 80PX;
+    position: relative;
+    left: 20px;
+}
+
+
+
+
+
+
+/* Service section */
+
+
+.intro h4 {
+    color: #e53935;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.services {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Space between the items */
+    flex-wrap: wrap; /* Allow wrapping */
+    margin-top: 40px;
+    max-width: 600px; /* Adjust width as needed to fit two items per line */
+    margin: 0 auto; /* Center the container */
+}
+
+.service-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: calc(50% - 20px); /* Make each card occupy 50% of the container width, minus the gap */
+    transition: transform 0.2s;
+    margin-bottom: 20px; /* Space between rows */
+}
+
+.service-card:hover {
+    transform: scale(1.05);
+}
+
+
+.icon {
+    font-size: 2.5rem;
+    color: #00c853;
+    margin-bottom: 10px;
+}
+
+/* Footer section*/
+
+.footer-section {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-left, .footer-links, .footer-menu, .footer-contact {
+    width: 20%;
+    margin-bottom: 20px;
+}
+
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+a{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+.footer-section a:hover{
+    font-size: 1.1rem;
+    background-color: #aecfb1;
+    border: 1px solid #777;
+}
+
+
+.footer-bottom {
+    text-align: center;
+    padding: 20px 0;
+    border-top: 1px solid #444;
+    margin-top: 20px;
+  }
+
+
+
+  /* Extra Small Devices, Phones (Portrait and Landscape) */
+@media (max-width: 575px) {
+    .dwon-errow{
+        display: none;
+    }
+    .hero-text{
+        position: relative;
+        top: 30px;
+        left: -5%;
+    }
+    .hero-image img {
+        max-width: 280px;
+        position: relative;
+        top: -30px;
+        left: -50px;   
+    }
+  }
+  
+  /* Small Devices, Tablets (Portrait) */
+  @media (min-width: 576px) and (max-width: 767px) {
+    .dwon-errow{
+    display: none;
+  }
+ 
+}
+  
+  /* Medium Devices, Tablets (Landscape) and Small Desktops */
+  @media (min-width: 768px) and (max-width: 991px) {
+    /* Styles for devices with a width between 768px and 991px */
+  }
+  
+  /* Large Devices, Desktops */
+  @media (min-width: 992px) and (max-width: 1199px) {
+    /* Styles for devices with a width between 992px and 1199px */
+  }
+  
+  /* Extra Large Devices, Large Desktops */
+  @media (min-width: 1200px) {
+    /* Styles for devices with a width of 1200px or more */
+  }
+  
