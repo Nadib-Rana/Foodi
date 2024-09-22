@@ -36,46 +36,49 @@ header ul li a {
     color: #333;
 }
 
-.navgation-var{
+.navgation-var {
     display: flex;
     width: 100%;
     justify-content: space-between;
 }
 
-.navgation-var-link  li a:hover{
+.navgation-var-link li a:hover {
     background-color: #00c853;
-    border:1px solid black;
+    border: 1px solid black;
     border-radius: 8px;
     padding: 2px;
     color: white;
 }
-.dwon-errow{
+
+.dwon-errow {
     color: #00c853;
     position: relative;
     padding-left: 5px;
     font-weight: bold;
 }
-.dwon-errow:hover{
+
+.dwon-errow:hover {
     color: #aecfb1;
 }
 
-.fa-phone{
-   color: white;
-   background-color: #00c853;
-   padding: 6px 15px;
-   border-radius: 15px;
-   display: flex;
-   font-size: small;
-   letter-spacing: 2px;
-   position: relative;
-   top: -5px;
+.fa-phone {
+    color: white;
+    background-color: #00c853;
+    padding: 6px 15px;
+    border-radius: 15px;
+    display: flex;
+    font-size: small;
+    letter-spacing: 2px;
+    position: relative;
+    top: -5px;
 }
-.fa-phone:hover{
+
+.fa-phone:hover {
     border: 2px solid #777;
 }
 
 
-.vedio-play{
+.vedio-play {
     background-color: white;
     border-radius: 50%;
     padding: 8px;
@@ -83,47 +86,55 @@ header ul li a {
     position: relative;
     right: -20px;
 }
+
 .hero {
     display: flex;
     justify-content: space-around;
     padding: 50px;
     background-color: #f0f4f8;
 }
-.hero-text{
+
+.hero-text {
     position: relative;
     top: 55px;
     left: 6%;
 }
+
 .hero-image img {
     max-width: 350px;
     position: relative;
     top: -30px;
- 
+
 }
-.comment-about-items{
+
+.comment-about-items {
     font-size: 14px;
     color: #e53935;
     opacity: 0.9;
 }
-.order-now{
+
+.order-now {
     position: relative;
     background-color: rgb(18, 247, 18);
     text-underline-offset: none;
-    text-decoration: none; 
+    text-decoration: none;
     align-items: center;
     border-radius: 15px;
     padding: 8px 10px;
     z-index: 1;
 }
-.order-now:hover{
-    border:2px solid #777;
+
+.order-now:hover {
+    border: 2px solid #777;
 }
-.order-now:active{
- background-color: #777;
- color: white;
- border: 2 solid green;
+
+.order-now:active {
+    background-color: #777;
+    color: white;
+    border: 2 solid green;
 }
-.cta-watch-video{
+
+.cta-watch-video {
     position: relative;
     font-size: 18px;
     left: -40px;
@@ -133,34 +144,42 @@ header ul li a {
     z-index: 1;
     color: black;
 }
-.vedio-play:hover{
+
+.vedio-play:hover {
     border: 2px solid #777;
 }
-.vedio-play:active{
+
+.vedio-play:active {
     background-color: #6a907a;
     color: white;
     border: 2px solid green;
 }
-.categories{
+
+.categories {
     padding: 50px;
     text-align: center;
+
 }
 
 
-.testimonials{
+.testimonials {
     display: flex;
     justify-content: space-around;
 }
 
-.category-grid, .menu-grid {
+.category-grid,
+.menu-grid {
     display: flex;
     justify-content: space-around;
     margin-top: 30px;
 }
-.menu{
+
+.menu {
     left: 15%;
 }
-.category, .menu-item {
+
+.category,
+.menu-item {
     background-color: white;
     border-radius: 20px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
@@ -170,14 +189,16 @@ header ul li a {
     position: relative;
     transition: transform 0.2s;
 }
-.category-img{
+
+.category-img {
     height: 100px;
     width: 100px;
     border-radius: 50%;
     z-index: 1;
     background-color: #aecfc1;
 }
-.dish-items{
+
+.dish-items {
     font-size: 12px;
 }
 
@@ -205,18 +226,14 @@ header ul li a {
     transform: scale(1.05);
 }
 
-.btn-pass{
-    font-size: large;
+.fa-angle-left,
+.fa-angle-right {
     padding: 12px 15px;
+    background-color: #c6d1cb;
+    gap: 13px;
     border-radius: 50%;
-    background-color: #aecfb1;
-    border: none;
-    color: white;
 }
-.btn-right{
-    background-color: #00c853;
-    margin-left: 25px;
-}
+
 .favorite {
     width: 30px;
     height: 30px;
@@ -274,59 +291,70 @@ h3 {
 
 /* What Our Customers Say About Us */
 .testimonial-img {
-    position: relative; /* Establishes a positioning context for children */
-    display: inline-block; /* Keeps the content together */
+    position: relative;
+    /* Establishes a positioning context for children */
+    display: inline-block;
+    /* Keeps the content together */
 }
 
 .Customer-img {
     height: 400px;
     width: auto;
-    border-top-left-radius: 50%; /* Smooth rounded shape */
+    border-top-left-radius: 50%;
+    /* Smooth rounded shape */
     border-top-right-radius: 50%;
-    position: relative; /* Positions relative to parent */
-    z-index: 2; /* Higher z-index to ensure it is on top of the background */
+    position: relative;
+    /* Positions relative to parent */
+    z-index: 2;
+    /* Higher z-index to ensure it is on top of the background */
 }
 
 .Customer-img-background {
     height: 300px;
-    width: 100%; /* Adjust the width to ensure it matches the container */
+    width: 100%;
+    /* Adjust the width to ensure it matches the container */
     background-color: #00c853;
-    border-top-left-radius: 50%; /* Smooth rounded shape */
+    border-top-left-radius: 50%;
+    /* Smooth rounded shape */
     border-top-right-radius: 50%;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
-    position: absolute; /* Positioned relative to the parent container */
-    z-index: 1; /* Lower z-index to appear behind the image */
-    top: 100px; /* Adjust positioning as needed to place it properly */
-    left: -5%; /* Align it with the left edge of the parent */
+    position: absolute;
+    /* Positioned relative to the parent container */
+    z-index: 1;
+    /* Lower z-index to appear behind the image */
+    top: 100px;
+    /* Adjust positioning as needed to place it properly */
+    left: -5%;
+    /* Align it with the left edge of the parent */
 }
 
 
 
 /* journy */
-.journey{
+.journey {
     display: flex;
     justify-content: space-around;
 }
 
-.journey-left-side{
+.journey-left-side {
     position: relative;
     left: 2%;
-   
+
 }
 
-.explore{
+.explore {
     padding: 7px 10PX;
     border-radius: 15px;
     background-color: #00c853;
     width: 80PX;
     position: relative;
-    left: 20px;
+    left: 0px;
 }
 
-
-
-
+.customers-Feedbac{
+    display: flex;
+}
 
 
 /* Service section */
@@ -341,11 +369,15 @@ h3 {
 .services {
     display: flex;
     justify-content: center;
-    gap: 20px; /* Space between the items */
-    flex-wrap: wrap; /* Allow wrapping */
+    gap: 20px;
+    /* Space between the items */
+    flex-wrap: wrap;
+    /* Allow wrapping */
     margin-top: 40px;
-    max-width: 600px; /* Adjust width as needed to fit two items per line */
-    margin: 0 auto; /* Center the container */
+    max-width: 600px;
+    /* Adjust width as needed to fit two items per line */
+    margin: 0 auto;
+    /* Center the container */
 }
 
 .service-card {
@@ -354,9 +386,11 @@ h3 {
     border-radius: 15px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
-    width: calc(50% - 20px); /* Make each card occupy 50% of the container width, minus the gap */
+    width: calc(50% - 20px);
+    /* Make each card occupy 50% of the container width, minus the gap */
     transition: transform 0.2s;
-    margin-bottom: 20px; /* Space between rows */
+    margin-bottom: 20px;
+    /* Space between rows */
 }
 
 .service-card:hover {
@@ -378,7 +412,10 @@ h3 {
     flex-wrap: wrap;
 }
 
-.footer-left, .footer-links, .footer-menu, .footer-contact {
+.footer-left,
+.footer-links,
+.footer-menu,
+.footer-contact {
     width: 20%;
     margin-bottom: 20px;
 }
@@ -392,12 +429,14 @@ ul {
 ul li {
     margin-bottom: 10px;
 }
-a{
+
+a {
     list-style: none;
     text-decoration: none;
     color: black;
 }
-.footer-section a:hover{
+
+.footer-section a:hover {
     font-size: 1.1rem;
     background-color: #aecfb1;
     border: 1px solid #777;
@@ -409,48 +448,439 @@ a{
     padding: 20px 0;
     border-top: 1px solid #444;
     margin-top: 20px;
-  }
+}
 
 
 
-  /* Extra Small Devices, Phones (Portrait and Landscape) */
-@media (max-width: 575px) {
-    .dwon-errow{
+
+
+
+
+
+@media (max-width: 480px) 
+{
+
+    .navgation-var-link li a{
         display: none;
     }
-    .hero-text{
+
+    header{
+        transform: scale(0.7);
+    }
+    .hero{
         position: relative;
-        top: 30px;
+        top: -80px;
+        transform: scale(0.7);
+    }
+
+    .categories{
+     position: relative;
+     top: -100px;    
+     left: -10px;
+    } 
+
+    .category-grid{
+        transform: scale(0.7);
+    }
+
+    .menu{
+       transform: scale(0.7); 
+       top: -200px;
+       left: -26px;
+       position: relative;
+       align-items: center;
+    }
+   .fa-angle-left{
+    position: relative;
+    right: -50px;
+   }
+   .fa-angle-right{
+    position: relative;
+    right: -110px;
+   }
+   
+    .testimonials{
+        transform: scale(0.5); 
+        top: -300px;
+        left: -25px;
+    }
+    
+     .What-Our-Customers-Say-About-Us{
+        font-size: 10px;
+    
+     }
+     .hight-br {
+        display: none;
+    }
+    .Say-About-Us{
+        font-size: 16px;
+    }
+
+    .customers-Feedbac{
+        display: flex;
+        flex-direction: column;
+    }
+    .testimonial-img{
+        top:-20px
+    } 
+
+    .rating-point,.Reviews{
+        position: relative;
+        left: -10px;
+    }
+    .journey{
+        position: relative;
+        top: -450px;
+    }
+    .journey-left-side{
+        transform: scale(0.7);
+    }
+    .journey-right-side{
+        transform: scale(0.7);
+        position: relative;
+        right: -10px;
+    }
+    .service-card p{
+        font-size: 10px;
+    }
+
+    .footer-section{
+        position: relative;
+        top: -500px;
+    }
+    .footer-section a{
+     font-size: 12px;
+    }
+    .footer-contact li a{
+        position: relative;
+        left: -10px;
+    }
+    .footer-bottom{
+        position: relative;
+        top: -500px;
+    }
+}
+
+
+
+/**********************************for tap***********************/
+
+
+@media (max-width: 655px) {
+
+    /* .navgation-var-link li a{
+        display: none;
+    } */
+
+    .hero-text {
+        position: relative;
+        top: 19px;
         left: -5%;
     }
+
     .hero-image img {
-        max-width: 280px;
+        max-width: 250px;
         position: relative;
         top: -30px;
-        left: -50px;   
+        left: -80px;
     }
+
+    .order-now {
+        font-size: 16px;
+    }
+
+    .cta-watch-video {
+        font-size: 16px;
+        left: -70px;
+    }
+
+    .description-Dive-into-delights {
+        font-size: 13.8px;
+        line-height: 1.5rem;
+    }
+
+    /* Popular-Categories */
+    .comment-about-items,
+    .Popular-Categories {
+        font-size: 15px;
+    }
+
+    .SPECIAL-DISHES {
+        align-items: center;
+        padding-left: 45px;
+        line-height: 60px;
+    }
+
+    .Standout-Dishes-From-Our-Menu {
+        font-size: 15px;
+    }
+
+    .fa-angle-left,
+    .fa-angle-right {
+        padding: 6px 7.5px;
+        border-radius: 50%;
+        z-index: 10;
+        position: relative;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        top: 55px;
+    }
+
+    .fa-angle-left:active,
+    .fa-angle-left:hover {
+        background-color: #00c853;
+    }
+
+    .fa-angle-right:active,
+    .fa-angle-right:hover {
+        background-color: #00c853;
+    }
+
+    h3 {
+        font-size: 16px;
+    }
+
+    .description {
+        font-size: 12px;
+    }
+
+
+    .special-dishes-move {
+        position: relative;
+        right: 15%;
+    }
+
+    .menu-card {
+        background-color: white;
+        border-radius: 20px;
+        box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+        padding: 10px;
+        max-width: 200px;
+        text-align: center;
+        position: relative;
+        transition: transform 0.2s;
+    }
+
+
+    /* TESTIMONIALS */
+
+
+
+    .testimonials {
+        transform: scale(0.7);
+        /* Reduces the size to 80% of the original */
+        transform-origin: center;
+        /* Keeps the scale centered */
+        position: relative;
+        left: -10px;
+    }
+
+    .testimonial-img {
+        position: relative;
+        left: -55px;
+    }
+
+    .What-Our-Customers-Say-About-Us {
+        font-size: 1.2rem;
+    }
+
+    .hight-br {
+        display: none;
+    }
+
+    .journey {
+        transform: scale(0.9);
+    }
+
+    .footer-section {
+        transform: scale(0.9);
+    }
+
+    .categories {
+        transform: scale(0.9);
+        padding: 5px;
+    }
+
+    .menu {
+        transform: 0.9;
+    }
+
+    .services {
+        transform: scale(0.95)
+    }
+
+    .I-had-the-pleasure{
+        font-size: 13px;
+    }
+    .Feedbac-img{
+        width: 40px;
+    }
+  .Feedbac{
+    font-size: 8px;
   }
-  
-  /* Small Devices, Tablets (Portrait) */
-  @media (min-width: 576px) and (max-width: 767px) {
-    .dwon-errow{
-    display: none;
-  }
- 
+
 }
-  
-  /* Medium Devices, Tablets (Landscape) and Small Desktops */
-  @media (min-width: 768px) and (max-width: 991px) {
-    /* Styles for devices with a width between 768px and 991px */
-  }
-  
-  /* Large Devices, Desktops */
-  @media (min-width: 992px) and (max-width: 1199px) {
+
+
+
+/* Medium Devices, Tablets (Landscape) and Small Desktops */
+@media (min-width: 655px) and (max-width: 991px) {
+
+
+        /* .navgation-var-link li a{
+            display: none;
+        } */
+    
+        .hero-text {
+            position: relative;
+            top: 19px;
+            left: -5%;
+        }
+    
+        .hero-image img {
+            max-width: 250px;
+            position: relative;
+            top: -30px;
+            left: -80px;
+        }
+    
+        .order-now {
+            font-size: 16px;
+        }
+    
+        .cta-watch-video {
+            font-size: 16px;
+            left: -70px;
+        }
+    
+        .description-Dive-into-delights {
+            font-size: 13.8px;
+            line-height: 1.5rem;
+        }
+    
+        /* Popular-Categories */
+        .comment-about-items,
+        .Popular-Categories {
+            font-size: 15px;
+        }
+    
+        .SPECIAL-DISHES {
+            align-items: center;
+            padding-left: 45px;
+            line-height: 60px;
+        }
+    
+        .Standout-Dishes-From-Our-Menu {
+            font-size: 15px;
+        }
+    
+        .fa-angle-left,
+        .fa-angle-right {
+            padding: 6px 7.5px;
+            border-radius: 50%;
+            z-index: 10;
+            position: relative;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            top: 55px;
+        }
+    
+        .fa-angle-left:active,
+        .fa-angle-left:hover {
+            background-color: #00c853;
+        }
+    
+        .fa-angle-right:active,
+        .fa-angle-right:hover {
+            background-color: #00c853;
+        }
+    
+        h3 {
+            font-size: 16px;
+        }
+    
+        .description {
+            font-size: 12px;
+        }
+    
+    
+        .special-dishes-move {
+            position: relative;
+            right: 15%;
+        }
+    
+        .menu-card {
+            background-color: white;
+            border-radius: 20px;
+            box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+            padding: 10px;
+            max-width: 200px;
+            text-align: center;
+            position: relative;
+            transition: transform 0.2s;
+        }
+    
+    
+        /* TESTIMONIALS */
+    
+    
+    
+        .testimonials {
+            transform: scale(0.7);
+            /* Reduces the size to 80% of the original */
+            transform-origin: center;
+            /* Keeps the scale centered */
+            position: relative;
+            left: -10px;
+        }
+    
+        .testimonial-img {
+            position: relative;
+            left: -55px;
+        }
+    
+        .What-Our-Customers-Say-About-Us {
+            font-size: 1.2rem;
+        }
+    
+        .hight-br {
+            display: none;
+        }
+    
+        .journey {
+            transform: scale(0.9);
+        }
+    
+        .footer-section {
+            transform: scale(0.9);
+        }
+    
+        .categories {
+            transform: scale(0.9);
+            padding: 5px;
+        }
+    
+        .menu {
+            transform: 0.9;
+        }
+    
+        .services {
+            transform: scale(0.95)
+        }
+    
+    
+    
+
+}
+
+/* Large Devices, Desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
     /* Styles for devices with a width between 992px and 1199px */
-  }
-  
-  /* Extra Large Devices, Large Desktops */
-  @media (min-width: 1200px) {
+}
+
+/* Extra Large Devices, Large Desktops */
+@media (min-width: 1200px) {
     /* Styles for devices with a width of 1200px or more */
-  }
-  
+}
